@@ -24,7 +24,7 @@ p {
   }
   .github-flair {
     box-shadow: 2px 2px 5px grey;
-	float: left
+	float: left;
   }
   h2 {
     box-shadow: 1px 1px 5px blue;
