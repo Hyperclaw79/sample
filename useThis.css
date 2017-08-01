@@ -7,6 +7,14 @@
 
 /*****************************************************************/
 
+#welcome {
+	display: none;
+}
+
+#oh {
+	display: none;
+}
+
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
@@ -24,7 +32,7 @@ p {
   }
   .github-flair {
     box-shadow: 2px 2px 5px grey;
-	float: left;
+	float: left
   }
   h2 {
     box-shadow: 1px 1px 5px blue;
@@ -54,6 +62,11 @@ p {
     border-image: url(http://multimedia.3m.com/mws/media/1178596P/3m-wrap-film-1080-m227-matte-blue-metallic.jpg?boundedSize=310) 30 stretch;
 
   }
+  
+  #im_gif:hover {
+	  opacity:0.6;
+	  transition: width 2s, height 4s;
+  } 
 
 .full-height {
   min-height: calc(100vh - 50px);
